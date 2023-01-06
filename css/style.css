@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-praimary{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 30px;
+    color: #fff;
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
+.btn-secondary{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 30px;
+    color: #F15B22;
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+/* banner design */
+header {
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.Banner-container {
+    padding: 150px 100px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+.banner-content {
+    text-align: right;
+    width: 500px;
+}
+.banner-heading{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+/* Blog design */
+.blog-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+    gap: 50px;
+}
+.blog-content{
+    padding-top: 200px;
+    width: 400px;
+}
+
+.blog-heading{
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.blog-description{
+
+    padding-bottom: 15px;
+}
+.blog-content ul{
+    padding-left: 0;
+}
+.blog-content ul li{
+    
+    align-items: center;
+    padding: 5px 0px;
+    list-style: none;
+}
+.tick-icon{
+    
+    height: 24px;
+    width: 24px;
+}
+
+/* plan blog's design */
+.plan-container{
+    padding: 50px 100px;
+}
+.plan-heading{
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.plans-card-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.card-description{
+    color: #737272;
+    font-weight: 500;
+    font-size: 19px
+    
+}
+
+/* using gradient design */
+.call-container{
+    text-align: center;
+    background-image:  linear-gradient(to right,rgb(240, 90, 33, 1),rgb(240, 90, 33, 0)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 200px;
+    border-radius: 5px;
+}
+.call{
+    width: 459px;
+    height: 182px; 
+   
+    text-align: left;
+    color: #fff;
+    padding: 50px 0px 50px 40px;
+}
+.call .call-heading{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+/* footer design */
+footer{
+    background: #151414;
+}
+.footer-container{
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px;
+}
+
+.contact-container{
+    width: 480px;
+}
+.contact-container p{
+    padding-bottom: 20px;
+}
+
+.contact-heading {
+    padding-bottom: 20px;
+}
+
+.contact-email{
+    color: #fff;
+    background-color: #151414;
+    padding: 15px 30px;
+    border: 0;
+    outline: 2px solid #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px ;
+}
+.contact-email input[type="submit"]{
+    padding: 13px 30px;
+}
