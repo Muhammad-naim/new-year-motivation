@@ -11,7 +11,7 @@
     border: 0;
     border-radius: 5px;
 }
-.btn-secondary{
+.btn-secondary {
     font-weight: 600;
     font-size: 20px;
     padding: 17px 30px;
@@ -20,12 +20,12 @@
     border: 0;
     border-radius: 5px;
 }
-/* banner design */
+                                            /* banner design */
 header {
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 .Banner-container {
     padding: 150px 100px;
@@ -38,7 +38,7 @@ header {
     text-align: right;
     width: 500px;
 }
-.banner-heading{
+.banner-heading {
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -48,10 +48,10 @@ header {
     padding-bottom: 30px;
 }
 
-/* Blog design */
+                                            /* Blog design */
 .blog-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 50px 120px;
     gap: 50px;
@@ -67,17 +67,30 @@ header {
     padding-bottom: 20px;
 }
 .blog-description{
-
     padding-bottom: 15px;
 }
 .blog-content ul{
     padding-left: 0;
 }
-.blog-content ul li{
-    
+.blog-content ul li{  
     align-items: center;
     padding: 5px 0px;
     list-style: none;
+}
+
+                                    /* self inserted section design */
+
+.motivation-blog-content{
+    width: 400px;
+}
+
+.motivation-blog-content .p{
+    padding-bottom: 0px;
+}
+.motivation-photo{
+    height: 550;
+    width: 300px;
+    border-radius: 7px;
 }
 .tick-icon{
     
@@ -85,7 +98,7 @@ header {
     width: 24px;
 }
 
-/* plan blog's design */
+                                        /* plan blog's design */
 .plan-container{
     padding: 50px 100px;
 }
@@ -113,7 +126,7 @@ header {
     
 }
 
-/* using gradient design */
+                                        /* using gradient design */
 .call-container{
     text-align: center;
     background-image:  linear-gradient(to right,rgb(240, 90, 33, 1),rgb(240, 90, 33, 0)), url(../images/watch.png);
@@ -156,7 +169,9 @@ footer{
 .contact-container p{
     padding-bottom: 20px;
 }
-
+.social-icon-container img{
+    padding-right: 10px;
+}
 .contact-heading {
     padding-bottom: 20px;
 }
